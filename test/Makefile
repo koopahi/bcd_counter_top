@@ -5,7 +5,7 @@
 SIM ?= icarus
 TOPLEVEL_LANG ?= verilog
 SRC_DIR = $(PWD)/../src
-PROJECT_SOURCES = project.v
+PROJECT_SOURCES = tt_um_koopahi_bcd_counter_top.v  clock_divider.v  bcd_counter_top.v bcd_counter.v
 
 ifneq ($(GATES),yes)
 
